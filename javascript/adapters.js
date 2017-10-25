@@ -13,10 +13,8 @@
     $.ajax({
       method: 'GET',
       url: 'http://localhost:3000/api/v1/quiz',
-
       })
   }
-
 
   function addQuestionToAPI() {
     $.ajax({
